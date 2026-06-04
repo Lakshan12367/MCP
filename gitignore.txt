@@ -1,0 +1,25 @@
+# Runtime state (never commit live team/brain/gateway data or secrets)
+*.json.lock
+shared_state.json
+.claude_team_state.json
+second_brain/
+gateway.json
+gateway_vault.json
+team_backups/
+adapters/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
